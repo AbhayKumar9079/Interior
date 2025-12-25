@@ -1,0 +1,424 @@
+/* HERO SECTION */
+.about-hero{
+    position: relative;
+    height: 360px;
+    background: url("images/about-img.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-overlay{
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.55);
+}
+
+.hero-content{
+    position: relative;
+    text-align: center;
+    color: #fff;
+    z-index: 2;
+}
+
+.hero-content h1{
+    font-size: 42px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.hero-content p{
+    font-size: 15px;
+}
+
+.hero-content a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* ABOUT DETAILS */
+.about-details{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 80px 10%;
+    background: #fff;
+}
+
+.about-left{
+    flex: 1;
+}
+
+.about-left h2{
+    font-size: 34px;
+    margin-bottom: 20px;
+    color: #3b2f2f;
+}
+
+.about-left p{
+    font-size: 16px;
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.about-right{
+    flex: 1;
+}
+
+.about-right img{
+    width: 100%;
+    border-radius: 6px;
+}
+
+/* STATS SECTION */
+.stats-section{
+    position: relative;
+    background: url("images/hero-img.jpg") center/cover no-repeat;
+    padding: 90px 10%;
+}
+
+.stats-overlay{
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.65);
+}
+
+.stats-container{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    text-align: center;
+    color: #fff;
+    z-index: 2;
+}
+
+.stat-box h2{
+    font-size: 42px;
+    margin: 10px 0;
+    font-weight: 700;
+}
+
+.stat-box p{
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+.stat-icon{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+
+/* OUR TEAM SECTION */
+.team-header{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.team-header h2{
+    font-size: 42px;
+    color: #3b2f2f;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.team-header h2 span{
+    color: #0b5c7a;
+}
+
+.team-header p{
+    font-size: 16px;
+    color:#3b2f2f;
+    line-height: 1.7;
+    opacity: 0.9;
+}
+ .abt-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 3rem;
+        
+        }
+        
+        .abt-card {
+            overflow: hidden;
+            transition: all 0.4s ease;
+            border: 2px solid rgba(212, 175, 55, 0.1);
+            transform: translateY(30px);
+        }
+         
+        .abt-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+            border-color: var(--primary-gold);
+        }
+        
+        .abt-image {
+            width: 100%;
+            height: 350px;
+            overflow: hidden;
+        }
+        
+        .abt-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+          
+        .abt-content {
+            padding: 2rem;
+        }
+        
+        .abt-meta {
+            display: flex;
+            gap: 2rem;
+            margin-bottom: 1rem;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+        
+        .abt-meta span {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .abt-card h6 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--primary-gold);
+            transition: color 0.3s ease;
+        }
+        
+        
+/* TESTIMONIAL SECTION */
+.testimonials{
+    position: relative;
+    background: url("images/hero-img.jpg") center/cover no-repeat;
+    padding: 90px 10%;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.testimonials-overlay{
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.65);
+}
+
+.testimonials-content{
+    position: relative;
+    z-index: 2;
+}
+
+/* HEADER */
+.testimonials-header{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.testimonials-header h2{
+    font-size: 42px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.testimonials-header h2 span{
+    color: #0b5c7a;
+}
+
+.testimonials-header p{
+    font-size: 16px;
+    line-height: 1.7;
+    opacity: 0.9;
+}
+
+/* CARDS */
+.testimonial-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.testimonial-card{
+    background: #fff;
+    color: #333;
+    padding: 35px 30px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.testimonial-card::before{
+    content: "“";
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 70px;
+    color: #f0f0f0;
+    font-family: serif;
+}
+
+.testimonial-card h4{
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #3b2f2f;
+}
+
+.testimonial-card p{
+    font-size: 15px;
+    line-height: 1.7;
+    color: #555;
+}
+/* =========================
+   TABLET & MOBILE
+========================= */
+@media (max-width: 992px){
+
+    /* HERO */
+    .about-hero{
+        height: 300px;
+    }
+
+    .hero-content h1{
+        font-size: 32px;
+    }
+
+    /* ABOUT DETAILS */
+    .about-details{
+        flex-direction: column;
+        padding: 60px 8%;
+        gap: 30px;
+    }
+
+    .about-left h2{
+        font-size: 28px;
+    }
+
+    /* STATS */
+    .stats-container{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+
+    /* TEAM */
+    .abt-grid{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    /* TESTIMONIALS */
+    .testimonial-cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+/* =========================
+   SMALL MOBILE
+========================= */
+@media (max-width: 480px){
+
+    /* HERO */
+    .about-hero{
+        height: 240px;
+        padding: 0 15px;
+    }
+
+    .hero-content h1{
+        font-size: 24px;
+        letter-spacing: 1px;
+        padding-top: 30px;
+    }
+
+    .hero-content p{
+        font-size: 13px;
+    }
+
+    /* ABOUT DETAILS */
+    .about-details{
+        padding: 40px 15px;
+        gap: 25px;
+    }
+
+    .about-left h2{
+        font-size: 22px;
+    }
+
+    .about-left p{
+        font-size: 14px;
+    }
+
+    /* STATS */
+    .stats-section{
+        padding: 60px 15px;
+    }
+
+    .stats-container{
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .stat-box h2{
+        font-size: 30px;
+    }
+
+    .stat-box p{
+        font-size: 14px;
+    }
+
+    /* TEAM */
+    .team-header h2{
+        font-size: 26px;
+    }
+
+    .team-header p{
+        font-size: 14px;
+    }
+
+    .abt-grid{
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .abt-image{
+        height: 260px;
+    }
+
+    .abt-card h6{
+        font-size: 18px;
+    }
+
+    /* TESTIMONIALS */
+    .testimonials{
+        padding: 60px 15px;
+    }
+
+    .testimonials-header h2{
+        font-size: 26px;
+    }
+
+    .testimonials-header p{
+        font-size: 14px;
+    }
+
+    .testimonial-cards{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .testimonial-card{
+        padding: 25px 20px;
+    }
+
+    .testimonial-card h4{
+        font-size: 18px;
+    }
+
+    .testimonial-card p{
+        font-size: 14px;
+    }
+}
+
+
